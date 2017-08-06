@@ -1,0 +1,70 @@
+---
+---
+
+@import url('https://fonts.googleapis.com/css?family=Cantarell:400,400i,700|EB+Garamond|Delius');
+@import "{{ site.theme }}";
+a{
+	color:#1a1a1a; cursor:pointer; text-decoration:underline;
+}
+a:visited{
+	color:#1a1a1a;
+}
+body{
+	background:#f7f7f7; font-family:"Cantarell", sans-serif;
+}
+.wrapper{
+	max-width:calc(650px - (30px * 2));
+}
+.site-header{
+	border:0px; margin-top:35px; font-family: 'Delius', cursive;
+}
+.wam{
+	float:left; width: 100%; 
+}
+.wam p{
+	text-align:left; font-size:16px;
+}
+.wam img{
+	border:1px solid #dedede; border-radius:4px;
+}
+.wam span h2{
+	text-transform:uppercase; font-family: 'Delius', cursive;
+	font-size:35px;
+}
+.profile_img{
+	float:right; width:30%; margin-left:20px;
+}
+.intro{
+	margin-bottom:50px;
+}
+.site-nav,.site-title{
+	display:none;
+}
+.foa{
+	width:100%; text-align:center; font-family: 'Delius', cursive;
+	overflow:hidden; font-size:25px; line-height:25px;
+}
+.foa em{
+	color:#8e8e8e;  font-size:14px;
+}
+.top_img{
+	margin:0px auto; width:50px;
+}
+.post--update{
+	border-top:1px solid #eee; padding-top:30px;
+}
+.post-list{
+	font-family: 'EB Garamond', serif;
+}
+.page-heading{
+	font-size:30px; font-family: 'EB Garamond', serif;
+}
+.post-list h2{
+	margin-bottom:0; color:#1a1a1a;
+}
+.post-meta{
+	font-style:italic;
+}
+.site-footer{
+	border:0; text-align:center; padding:50px 0 20px;
+}
