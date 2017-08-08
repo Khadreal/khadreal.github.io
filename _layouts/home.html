@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Opeyemi Ibrahim</title>
+  <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search resu...">
+
+  <link rel="stylesheet" href="/assets/style.css">
+  <link rel="canonical" href="http://localhost:4000/">
+  <link rel="alternate" type="application/rss+xml" title="Opeyemi Ibrahim" href="/feed.xml">
+  
+  
+</head>
+
+
+  <body>
+
+  <header class="site-header" role="banner">
+  <div class="wrapper">
+    
+      <div class="top_img">
+        <img src="assets/image/opeyemi.jpg" alt="Opeyemi Ibrahim">
+      </div>
+      <div class="foa">
+        Opeyemi Ibrahim<br>
+       <em>Coder</em>
+      </div>
+  </div>
+  </header>
+
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <div class="home">
+          <div class="wam">
+            <div class="profile_img">
+              <img src="assets/image/opeyemi.jpg" alt="Opeyemi Ibrahim">
+            </div>
+            <div class="intro">
+              <span>
+                <p>
+                Hi there!, I'm Opeyemi, I'm a developer, <a href="/blog">writer</a> and coffee enthusiast currently residing in Lagos, Nigeria.</p>
+
+                <p>I curently work as a software developer for <a href="http://anakle.com" target="_blank">Anakle</a>. Previously, I worked as a senior web devloper for <a href="http://ckdigital.net" target="_blank">CKDigital</a>.</p>
+
+                <p>I have a hardwired desire to be better. Hopefully, one day I creates something that thrill my mum.
+                </p>
+                <p>
+                  Have a question? Or just want to talk about coffee?
+                 <a href="mailto:opeyemiibrahim@hotmail.com">send me a mail</a> or <a href="http://twitter.com/khadreal">follow me on twitter</a>.
+                </p>
+              </span>
+            </div>
+            <div class="post--update">
+              <h1 class="page-heading">Posts</h1>
+              <ul>
+                {% for post in site.posts limit:1 %}
+                  <li>
+                    <a href="{{ post.url }}">{{ post.title }}</a>
+                  </li>
+                {% endfor %}
+              </ul>
+              <div class="view--more">
+                <a href="/blog">View All Post</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  <footer class="site-footer">
+    <div class="wrapper">
+    <div class="footer-col-wrapper">
+      
+        <p>
+          Made with ❤️ sipping ☕ while 🎶 <a href="http://www.deezer.com/us/playlist/3450833242" target="_blank">to this playlist</a>
+        </p>
+      
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>

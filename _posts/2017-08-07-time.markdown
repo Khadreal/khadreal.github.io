@@ -1,0 +1,28 @@
+---
+layout: post
+title:  "This Thing Called Time Estimates — A Developer’s Honest Tak"
+date:   2017-07-30 17:40:51 +0100
+permalink: /this-thing-called-time-estimates/
+
+categories:
+---
+It’s been one week since Sameer’s (pseudo name) promised delivery date on an important project. And yet, things have gone silent on his end, with no response from him.
+
+![My helpful screenshot]({{ site.url }}/assets/image/time.jpeg)
+
+
+Interestingly, I can perfectly understand, being a developer myself. I simply concluded that he was busy, or caught up in another classic case of time estimation gone wrong.
+
+“How long will it take you to finish the website?”
+
+It’s a question I get asked at work on a daily basis.
+
+“I will try to finish as quickly as I can” doesn’t answer the question, does it? So in an attempt to please, inaccurate time is given. I state two days, something that should actually be two weeks long. And then I suffer for it. Believe me when I say that this time estimation problem has cost me precious sleeping time as I’m forced to work late night to meet my promise. It’s another reason why people like me find it hard to have a perfect work-life balance.
+
+And yet, we move. We continue to continue to work to create mind-blowing stuff that keeps others asking for more.
+
+
+`A perfect time estimate depicts integrity and self-discipline.`
+
+After speaking to others, it seems that many Nigerian developers have this same issue of time estimation. I think it’s high time we do more in improving ourselves.
+There are loads of free course out there on time management and estimation. Let’s sign up. Better yet, let’s get friends and colleagues to do the same.
