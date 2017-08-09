@@ -36,8 +36,9 @@ $app = require_once __DIR__.'/../bootstrap/app.php';
 Update the line of code to the correct paths as following
 
 `
-require __DIR__.'/../project/bootstrap/autoload.php';
-$app = require_once __DIR__.'/../project/bootstrap/app.php';
+require __DIR__.'/../project/bootstrap/autoload.php';`
+
+`$app = require_once __DIR__.'/../project/bootstrap/app.php';
 `
 
 After modifying the index.php file, don't forget to configure your application variables in **/home/opeyemi/project/.env**
