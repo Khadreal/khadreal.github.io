@@ -2,7 +2,14 @@
 {% include head.html %}
 
 {% include header.html %}
-
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.10&appId=113095079314888";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 <main class="page-content" aria-label="Content">
 	<div class="wrapper">
 		<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
@@ -19,7 +26,22 @@
   			<div class="post-content" itemprop="articleBody">
   				{{ content }}
   			</div>
+  			<!-- AddToAny BEGIN -->
+				<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+				<a class="a2a_dd" href="https://www.addtoany.com/share"></a>
+				<a class="a2a_button_facebook"></a>
+				<a class="a2a_button_twitter"></a>
+				<a class="a2a_button_google_plus"></a>
+				<a class="a2a_button_email"></a>
+				</div>
+				<script>
+				var a2a_config = a2a_config || {};
+				a2a_config.linkname = "Opeyemi Ibrahim";
+				</script>
+				<script async src="https://static.addtoany.com/menu/page.js"></script>
+			<!-- AddToAny END -->
   		</article>
+  		<div class="fb-comments" data-href="https://khadreal.github.io/" data-width="590" data-numposts="5"></div>
   	</div>
 </main>
 {% include footer.html %}
