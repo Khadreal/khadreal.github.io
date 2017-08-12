@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The Future I imagine"
+title: "Tech Advancement and Arsenal in year 2050"
 date: 2017-08-12 14:40:51 +0100
 
 permalink: /the-future-i-imagine/
