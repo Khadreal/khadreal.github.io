@@ -11,7 +11,7 @@ categories:
 
 In this post, I'd like to show you how to deploy your Laravel 5 application, safe and secure on a shared hosting.
 
-Am assuming you have **public_html** directory, for example
+I'm assuming you have **public_html** directory, for example
 
 `/home/opeyemi/public_html`
 
@@ -23,7 +23,7 @@ After creating this project[or whatever you name the directory].
 
 You can now transfer your Laravel 5 code to the newly created directory.
 
-At this point, your application is still not accessible incase you tried to view on the browser.
+At this point, your application is still not accessible incase you tried to view on your browser.
 
 To make your project accessible, the first step is to copy all contents inside the **/home/opeyemi/project/** folder to **/home/opeyemi/public_html/** .
 
